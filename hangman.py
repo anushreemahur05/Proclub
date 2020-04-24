@@ -130,7 +130,7 @@ def hangman():
 
 print("Lets play HANGMAN!")
 name= input("What is your name? ")
-print("Hey " + name.title()+ "!" )
+print("Hey "+ name.title()+ "!" )
 print("-------------------------------------------------------")
 print("Try to guess the word in less than 10 attempts!")
 hangman()
